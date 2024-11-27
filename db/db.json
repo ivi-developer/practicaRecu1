@@ -1,0 +1,44 @@
+{
+  "pilotos": [
+    {
+      "id": "410a",
+      "nombre": "piloto",
+      "escuderiaDebut": "mercedes",
+      "escuderiaActual": "benz",
+      "anioDebut": 1950,
+      "cantPremios": 2,
+      "cantPodios": 2,
+      "activo": true
+    },
+    {
+      "id": "8e2d",
+      "nombre": "piloto",
+      "escuderiaDebut": "mercedes",
+      "escuderiaActual": "",
+      "anioDebut": 1970,
+      "cantPremios": 2,
+      "cantPodios": 1,
+      "activo": false
+    },
+    {
+      "id": "46b4",
+      "nombre": "pablo",
+      "escuderiaDebut": "mercedes",
+      "escuderiaActual": "",
+      "anioDebut": 2000,
+      "cantPremios": 0,
+      "cantPodios": 0,
+      "activo": false
+    },
+    {
+      "id": "072c",
+      "nombre": "lauti",
+      "escuderiaDebut": "mercedes",
+      "escuderiaActual": "Ferrari",
+      "anioDebut": 2005,
+      "cantPremios": 0,
+      "cantPodios": 0,
+      "activo": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<fieldset>
+    <legend>Ingrese piloto</legend>
+    <form [formGroup]="form">
+
+        <label for="">Ingrese nombre</label>
+        <input type="text" name="form nombre" formControlName="nombre">
+        <label for="">Ingrese primer escuderia</label>
+        <input type="text" name="primer escuderia" formControlName="escuderiaDebut">
+        <label for="">Escuderia actual</label>
+        <select name="Escuderia" id="" formControlName="escuderiaActual">
+            <option value="" disabled selected>Eliga una opcion</option>
+            <option value="Mercedes Benz">Mercedes Benz</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="BMW">BMW</option>
+            <option value="">Ya se retiro</option>
+        </select>
+        <label for="">Ingrese año debut</label>
+        <input type="number" name="anio debut" formControlName="anioDebut">
+        <label for="">Ingrese cantPremios corridos</label>
+        <input type="number" name="cant premios" formControlName="cantPremios">
+        <label for="">Ingrese cant podios</label>
+        <input type="number" name="cant podios" formControlName="cantPodios">
+        <label for="">Se encuentra activo?</label>
+        <input type="checkbox" name="actvo" formControlName="activo">
+        <button (click)="emitPiloto()" routerLink="/pilotos-list"> Enviar</button>
+    </form>
+</fieldset>

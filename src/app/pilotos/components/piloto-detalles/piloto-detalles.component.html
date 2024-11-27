@@ -1,0 +1,23 @@
+<section>
+    <h4> {{piloto?.nombre}} </h4>
+
+    <p>
+        @if(piloto?.escuderiaActual){
+        Actualmente corre en {{piloto?.escuderiaActual}}
+        }
+        @else {}
+    </p>
+    <p>Lleva {{piloto?.cantPremios}} grandes premios </p>
+    <p> @if (piloto?.cantPodios==0) {
+        Actualmente no se a subido a nigun podio
+        }
+        @else {
+        Se a subido a {{piloto?.cantPodios}} podios
+        }
+    </p>
+    <p>
+        @if (!piloto?.activo) {
+        El piloto ya se ha retirado
+        }
+    </p>
+</section>

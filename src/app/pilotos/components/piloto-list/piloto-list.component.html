@@ -1,0 +1,9 @@
+<section>
+    <ul>
+        <li> @for (piloto of pilotos; track $index) {
+            <app-piloto-card [piloto]="piloto" />
+            <button (click)="borrarPiloto(piloto.id)">Eliminar</button>
+            }
+        </li>
+    </ul>
+</section>
